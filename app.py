@@ -4,6 +4,16 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+# st.markdown("""
+#     <style>
+#         body{
+#             background-image: url('back.jpg');
+#             background-size: cover;
+#             background-position: center; /* Adjust position */
+#         }
+#     </style>
+#     """, unsafe_allow_html=True)
+
 
 ps = PorterStemmer()
 
@@ -53,3 +63,7 @@ if(st.button('Predict')):
 
 
 
+
+
+
+# link: https://www.youtube.com/watch?v=YncZ0WwxyzU&t=5087s
